@@ -1,0 +1,186 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap&subset=cyrillic-ext");
+
+
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  font-family: "Poppins"; 
+  line-height: 1;
+  background-color: white;
+  overflow-x: hidden;
+}
+.wrapper {
+	min-height: 100%;
+  font-family: 'Roboto';
+}
+
+.header{
+position: sticky;
+top: 0px;
+z-index: -1;
+padding-bottom: 100px;
+
+}
+.header__img{
+  width: 100%;
+}
+
+
+.who-we-are__conteiner{
+  background-color: #5D62B5;
+  border-radius: 40px;
+  max-width: 1020px;
+  border: 1px solid #5D62B5;
+  position: relative;
+  top: -660px;
+left: auto;
+margin: 0px auto ;
+
+
+}
+
+.who-we-are__conteiner::before{
+  content: " ";
+  background: url(../img/styl.png) 0 0 /  cover no-repeat;
+  height: 317px;
+  width: 201px;
+  position: absolute;
+  top:-150px ;
+  left: 800px ;
+}
+
+.who-we-are__conteiner::after{
+  content: " ";
+  background: url(../img/img4.png) 0 0 / cover no-repeat;
+  position: absolute;
+  top: 242px;
+  left: -30px;
+  width: 665px;
+    height: 591px;
+}
+
+.who-we-are__content{
+  padding: 100px 87px 354px 87px;
+margin-bottom: 20px;
+
+}
+
+.who-we-are__logotip{
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+Line-height: 171%;
+Letter-spacing: 2.5px;
+position: relative;
+margin-bottom: 33px;
+padding-left: 36px ;
+}
+.who-we-are__logotip::before{
+  content: " ";
+background: url(../img/logo.svg) 0 0 / cover no-repeat;
+width: 20px;
+height: 20px;
+position: absolute;
+top: -2px;
+left: 0px;
+}
+
+
+.who-we-are__title{
+  font-size: 36px;
+  font-weight: 900;
+  color: white;
+  line-height: 117%;
+  margin-bottom: 36px;
+  max-width: 583px;
+}
+
+.who-we-are__text{
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  color: #F5F5F5;
+  max-width: 846px;
+
+}
+
+
+.content__img{
+position: relative;
+  z-index: 1;
+  top: -980px;
+  text-align: center;
+  
+  }
+  .content__img-dog{ 
+    border-radius: 40px;
+    
+  }
+
+  
+
+
